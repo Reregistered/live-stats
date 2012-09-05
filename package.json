@@ -1,0 +1,17 @@
+{
+    "name": "live-stats"
+  , "version": "0.0.2"
+  , "description": "Layer on top of statsd-node client to allow for shared business rules metrics."
+  , "keywords": ["nodejs", "statsd","client"]
+  , "repository" :
+	  { "type" : "git"
+	    , "url" : "https://github.com/Reregistered/live-stats.git"
+	  }
+  , "author": "Dov Amihod "
+  , "dependencies": {
+    "statsd-node":"*",
+    "redis":"*"
+  }
+  , "main": "client"
+  , "engines": { "node": ">= 0.4.0 < 0.7.0" }
+}
